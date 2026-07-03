@@ -10,18 +10,20 @@ export function generateStaticParams() {
 }
 
 // Generate dynamic metadata for SEO
-export function generateMetadata({ params }) {
-  const post = blogPosts.find((p) => p.slug === params.slug);
+export async function generateMetadata({ params }) {
+  const { slug } = await params;
+  const post = blogPosts.find((p) => p.slug === slug);
   if (!post) return { title: 'Article non trouvé' };
 
   return {
-    title: \`\${post.title} - Blog Chrono Clim\`,
+    title: `${post.title} - Blog Chrono Clim`,
     description: post.excerpt,
   };
 }
 
-export default function BlogPost({ params }) {
-  const post = blogPosts.find((p) => p.slug === params.slug);
+export default async function BlogPost({ params }) {
+  const { slug } = await params;
+  const post = blogPosts.find((p) => p.slug === slug);
 
   if (!post) {
     notFound();
