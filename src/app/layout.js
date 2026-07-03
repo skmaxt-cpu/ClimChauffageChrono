@@ -2,6 +2,7 @@ import './globals.css';
 import CookieBanner from '@/components/CookieBanner';
 import ReservationModal from '@/components/ReservationModal';
 import WhatsAppButton from '@/components/WhatsAppButton';
+import MobileMenu from '@/components/MobileMenu';
 
 import { headers } from 'next/headers';
 
@@ -159,6 +160,7 @@ export default async function RootLayout({ children }) {
             <a href="/zones-intervention">Zones</a>
             <a href="/reservation" className="btn btn-primary" style={{ padding: '0.5rem 1rem' }}>Réserver en ligne</a>
           </div>
+          <MobileMenu />
         </nav>
         
         <main>
