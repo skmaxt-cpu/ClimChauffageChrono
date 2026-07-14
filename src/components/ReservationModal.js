@@ -448,7 +448,7 @@ export default function ReservationModal() {
                   {/* RGPD consent */}
                   <label style={{ display: 'flex', alignItems: 'flex-start', gap: '0.5rem', fontSize: '0.8rem', color: 'var(--text-muted)', cursor: 'pointer' }}>
                     <input type="checkbox" required style={{ marginTop: '3px', accentColor: 'var(--primary)' }} />
-                    <span>J'accepte que mes données soient traitées conformément à la <a href="/politique-confidentialite" style={{ color: 'var(--primary)', textDecoration: 'underline' }}>politique de confidentialité</a> de Chrono Clim.</span>
+                    <span>J'accepte que mes données soient traitées conformément à la <a href="/politique-confidentialite" style={{ color: 'var(--primary)', textDecoration: 'underline' }}>politique de confidentialité</a> de Clim Chrono.</span>
                   </label>
 
                   {status === 'error' && (

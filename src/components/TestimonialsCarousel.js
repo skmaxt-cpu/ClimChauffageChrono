@@ -7,13 +7,13 @@ const reviews = [
     name: "Sophie L.",
     service: "Installation Climatisation",
     stars: 5,
-    text: "Installation d'un système multi-splits Daikin dans notre maison. L'équipe était ponctuelle, le travail très propre, aucune gaine apparente. Je recommande Chrono Clim à 100% !",
+    text: "Installation d'un système multi-splits Daikin dans notre maison. L'équipe était ponctuelle, le travail très propre, aucune gaine apparente. Je recommande Clim Chrono à 100% !",
   },
   {
     name: "Marc D.",
     service: "Dépannage Chauffage",
     stars: 5,
-    text: "Ma chaudière est tombée en panne un dimanche de décembre. Le technicien Chrono Clim est venu dès le lundi matin et a changé la pièce défectueuse en 1h. Super réactifs !",
+    text: "Ma chaudière est tombée en panne un dimanche de décembre. Le technicien Clim Chrono est venu dès le lundi matin et a changé la pièce défectueuse en 1h. Super réactifs !",
   },
   {
     name: "Jean-Claude M.",
@@ -43,7 +43,7 @@ const reviews = [
     name: "Laurent G.",
     service: "Dépannage Ballon Eau Chaude",
     stars: 4,
-    text: "Plus d'eau chaude un samedi matin. Appel à Chrono Clim, intervention le lundi avec remplacement du groupe de sécurité. Technicien sympathique et tarif raisonnable.",
+    text: "Plus d'eau chaude un samedi matin. Appel à Clim Chrono, intervention le lundi avec remplacement du groupe de sécurité. Technicien sympathique et tarif raisonnable.",
   },
   {
     name: "Nathalie F.",

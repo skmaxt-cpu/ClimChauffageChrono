@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'Zones d\'intervention Île-de-France - Chrono Clim',
-  description: 'Chrono Clim intervient dans toute l\'Île-de-France (Paris 75, Seine-et-Marne 77, Yvelines 78, Essonne 91, Hauts-de-Seine 92, Seine-Saint-Denis 93, Val-de-Marne 94, Val-d\'Oise 95).',
+  title: 'Zones d\'intervention Île-de-France - Clim Chrono',
+  description: 'Clim Chrono intervient dans toute l\'Île-de-France (Paris 75, Seine-et-Marne 77, Yvelines 78, Essonne 91, Hauts-de-Seine 92, Seine-Saint-Denis 93, Val-de-Marne 94, Val-d\'Oise 95).',
   alternates: {
     canonical: 'https://www.chronoclim.fr/zones-intervention',
   },
@@ -29,7 +29,7 @@ export default function ZonesIntervention() {
     {
       num: '91',
       name: 'Essonne',
-      desc: 'Devis gratuit et intervention sous 24h/48h dans l\'Essonne pour tous vos projets de rénovation énergétique.',
+      desc: 'Devis gratuit et intervention sous 24h dans l\'Essonne pour tous vos projets de rénovation énergétique.',
       cities: ['Évry-Courcouronnes', 'Corbeil-Essonnes', 'Massy', 'Savigny-sur-Orge', 'Sainte-Geneviève-des-Bois', 'Viry-Châtillon', 'Athis-Mons', 'Palaiseau', 'Yerres', 'Draveil', 'Ris-Orangis', 'Vigneux-sur-Seine', 'Brunoy', 'Les Ulis', 'Montgeron', 'Brétigny-sur-Orge']
     },
     {
@@ -70,9 +70,9 @@ export default function ZonesIntervention() {
             "serviceType": "Climatisation et Chauffage",
             "provider": {
               "@type": "LocalBusiness",
-              "name": "Chrono Clim",
+              "name": "Clim Chrono",
               "telephone": "+33758939218",
-              "email": "contact@chronoclim.fr"
+              "email": "cvcchrono@gmail.com"
             },
             "areaServed": [
               { "@type": "State", "name": "Île-de-France" },
@@ -111,7 +111,7 @@ export default function ZonesIntervention() {
       
       <p className="text-center" style={{ color: 'var(--text-muted)', maxWidth: '700px', margin: '0 auto 4rem auto', fontSize: '1.1rem', lineHeight: '1.6' }}>
         Vous cherchez un installateur de climatisation ou un chauffagiste fiable ? 
-        <strong> Chrono Clim</strong> intervient rapidement sur l'ensemble de la région francilienne. 
+        <strong> Clim Chrono</strong> intervient rapidement sur l'ensemble de la région francilienne. 
         Découvrez ci-dessous les principales villes où nous opérons.
       </p>
 
@@ -181,9 +181,9 @@ export default function ZonesIntervention() {
 
       {/* SEO Content Block at bottom */}
       <div style={{ marginTop: '5rem', background: 'var(--surface)', padding: '3rem', borderRadius: 'var(--radius-md)', border: '1px solid var(--surface-alt)' }}>
-        <h2 style={{ marginBottom: '1.5rem' }}>Pourquoi choisir Chrono Clim en Île-de-France ?</h2>
+        <h2 style={{ marginBottom: '1.5rem' }}>Pourquoi choisir Clim Chrono en Île-de-France ?</h2>
         <p style={{ color: 'var(--text-muted)', lineHeight: '1.8', marginBottom: '1.5rem' }}>
-          La région Île-de-France présente des défis spécifiques en matière de climatisation et de chauffage (appartements haussmanniens, normes de copropriété, maisons en périphérie). Notre entreprise <strong>Chrono Clim</strong> possède l'expertise locale pour adapter nos installations à chaque configuration. 
+          La région Île-de-France présente des défis spécifiques en matière de climatisation et de chauffage (appartements haussmanniens, normes de copropriété, maisons en périphérie). Notre entreprise <strong>Clim Chrono</strong> possède l'expertise locale pour adapter nos installations à chaque configuration. 
         </p>
         <p style={{ color: 'var(--text-muted)', lineHeight: '1.8' }}>
           Que vous soyez situé en plein cœur de <strong>Paris</strong>, dans les zones résidentielles des <strong>Yvelines</strong> ou dans le dynamisme des <strong>Hauts-de-Seine</strong>, nous vous garantissons des délais d'intervention records, des <a href="/tarifs" style={{color: 'var(--primary)', textDecoration: 'underline'}}>tarifs transparents</a>, et une pose réalisée par des techniciens frigoristes certifiés.

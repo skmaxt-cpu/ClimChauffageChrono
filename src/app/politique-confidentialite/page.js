@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'Politique de Confidentialité (RGPD) - Chrono Clim',
-  description: 'Politique de confidentialité et de protection des données personnelles de Chrono Clim, conforme au RGPD.',
+  title: 'Politique de Confidentialité (RGPD) - Clim Chrono',
+  description: 'Politique de confidentialité et de protection des données personnelles de Clim Chrono, conforme au RGPD.',
 };
 
 export default function PolitiqueConfidentialite() {
@@ -17,9 +17,9 @@ export default function PolitiqueConfidentialite() {
           <h2 style={{ color: 'var(--primary)', marginBottom: '1rem', borderBottom: '2px solid var(--surface-alt)', paddingBottom: '0.5rem' }}>1. Responsable du traitement</h2>
           <div style={{ color: 'var(--text-muted)', lineHeight: '1.8' }}>
             <p>Le responsable du traitement des données collectées sur ce site est :</p>
-            <p><strong>Chrono Clim</strong><br/>
+            <p><strong>Clim Chrono</strong><br/>
             [Adresse à compléter]<br/>
-            Email : contact@chronoclim.fr<br/>
+            Email : cvcchrono@gmail.com<br/>
             Téléphone : 07 58 93 92 18</p>
           </div>
         </section>
@@ -75,7 +75,7 @@ export default function PolitiqueConfidentialite() {
         <section>
           <h2 style={{ color: 'var(--primary)', marginBottom: '1rem', borderBottom: '2px solid var(--surface-alt)', paddingBottom: '0.5rem' }}>4. Destinataires des données</h2>
           <p style={{ color: 'var(--text-muted)', lineHeight: '1.8' }}>
-            Vos données personnelles sont destinées exclusivement à l'équipe Chrono Clim. Elles ne sont <strong>jamais vendues, cédées ou partagées</strong> avec des tiers à des fins commerciales. 
+            Vos données personnelles sont destinées exclusivement à l'équipe Clim Chrono. Elles ne sont <strong>jamais vendues, cédées ou partagées</strong> avec des tiers à des fins commerciales. 
             Seuls peuvent y accéder : le responsable de traitement, les techniciens assignés à votre intervention, et le cas échéant, notre hébergeur web (dans le cadre strict du stockage sécurisé).
           </p>
         </section>
@@ -111,7 +111,7 @@ export default function PolitiqueConfidentialite() {
               </div>
             </div>
             <p style={{ marginTop: '1.5rem' }}>
-              Pour exercer ces droits, contactez-nous à : <strong>contact@chronoclim.fr</strong> en joignant un justificatif d'identité.<br/>
+              Pour exercer ces droits, contactez-nous à : <strong>cvcchrono@gmail.com</strong> en joignant un justificatif d'identité.<br/>
               Nous nous engageons à vous répondre sous <strong>30 jours maximum</strong>.
             </p>
             <p style={{ marginTop: '1rem' }}>

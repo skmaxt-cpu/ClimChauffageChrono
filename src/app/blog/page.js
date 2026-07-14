@@ -2,7 +2,7 @@ import { blogPosts } from '@/data/blogPosts';
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Blog CVC : Conseils Chauffage et Climatisation - Chrono Clim',
+  title: 'Blog CVC : Conseils Chauffage et Climatisation - Clim Chrono',
   description: 'Découvrez tous nos conseils d\'experts pour optimiser votre confort thermique, réduire vos factures et entretenir vos équipements de chauffage et climatisation.',
   alternates: {
     canonical: 'https://www.chronoclim.fr/blog',

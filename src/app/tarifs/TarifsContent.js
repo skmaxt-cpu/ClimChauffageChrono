@@ -9,7 +9,7 @@ export default function TarifsContent() {
     <div style={{ paddingTop: '140px', minHeight: '80vh', paddingBottom: '4rem' }} className="container">
       <h1 className="text-center" style={{ marginBottom: '1rem' }}>Nos <span className="text-secondary">Tarifs Transparents</span></h1>
       <p className="text-center" style={{ color: 'var(--text-muted)', maxWidth: '600px', margin: '0 auto 3rem auto' }}>
-        Chez Chrono Clim, pas de mauvaise surprise. Nos tarifs sont clairs, compétitifs et étudiés pour vous offrir le meilleur rapport qualité/prix.
+        Chez Clim Chrono, pas de mauvaise surprise. Nos tarifs sont clairs, compétitifs et étudiés pour vous offrir le meilleur rapport qualité/prix.
       </p>
 
       {/* TABS */}
@@ -213,7 +213,7 @@ export default function TarifsContent() {
             </div>
           </div>
 
-          <h2 style={{ marginBottom: '2rem', color: 'var(--primary)', borderBottom: '2px solid var(--surface-alt)', paddingBottom: '0.5rem' }}>Entretien & Dépannage Climatisation</h2>
+          <h2 style={{ marginBottom: '2rem', color: 'var(--primary)', borderBottom: '2px solid var(--surface-alt)', paddingBottom: '0.5rem' }}>Entretien & Diagnostique de panne</h2>
           <div className="grid grid-2" style={{ marginBottom: '4rem' }}>
             {/* Entretien PAC */}
             <div className="glass-panel" style={{ padding: '2rem', display: 'flex', flexDirection: 'column', border: '2px solid var(--secondary)', position: 'relative' }}>
@@ -237,15 +237,14 @@ export default function TarifsContent() {
             {/* Dépannage PAC */}
             <div className="glass-panel" style={{ padding: '2rem', display: 'flex', flexDirection: 'column' }}>
               <div style={{ textAlign: 'center', marginBottom: '2rem' }}>
-                <h3 style={{ margin: 0 }}>Dépannage Climatisation</h3>
-                <p style={{ color: 'var(--text-muted)' }}>Intervention rapide sur panne</p>
-                <h2 className="text-accent" style={{ fontSize: '2rem', marginTop: '1rem', whiteSpace: 'nowrap' }}>Gratuit</h2>
-                <p style={{ margin: 0, fontSize: '0.8rem' }}>(Le devis de réparation)</p>
+                <h3 style={{ margin: 0 }}>Diagnostic de panne</h3>
+                <p style={{ color: 'var(--text-muted)' }}>Déplacement et 1h de main d'œuvre inclus</p>
+                <h2 className="text-accent" style={{ fontSize: '2rem', marginTop: '1rem', whiteSpace: 'nowrap' }}>99€<span style={{ fontSize: '1rem' }}> TTC</span></h2>
               </div>
               <ul style={{ listStyle: 'none', flexGrow: 1, display: 'flex', flexDirection: 'column', gap: '0.8rem', marginBottom: '2rem' }}>
-                <li>✓ Déplacement rapide (&lt; 48h)</li>
+                <li>✓ Déplacement rapide (&lt; 24h)</li>
                 <li>✓ Diagnostic précis de la panne</li>
-                <li>✓ Devis gratuit sans engagement</li>
+                <li>✓ Montant déduit si devis accepté</li>
                 <li>✓ Réparation toutes marques</li>
               </ul>
               <a href="/reservation?type=depannage" className="btn" style={{ width: '100%', background: 'var(--accent)', color: 'white' }}>Urgence Dépannage</a>
@@ -256,7 +255,7 @@ export default function TarifsContent() {
           <div style={{ marginTop: '3rem', background: 'var(--surface-alt)', padding: '3rem', borderRadius: 'var(--radius-lg)' }}>
             <h2 className="text-center" style={{ marginBottom: '1.5rem' }}>Les Garanties de notre Contrat d'Entretien Climatisation</h2>
             <p className="text-center" style={{ color: 'var(--text-muted)', marginBottom: '3rem', maxWidth: '800px', margin: '0 auto 3rem auto' }}>
-              Souscrire à un contrat d'entretien annuel chez Chrono Clim, c'est la garantie d'une tranquillité d'esprit totale. Nos visites préventives couvrent 10 points de contrôle stricts.
+              Souscrire à un contrat d'entretien annuel chez Clim Chrono, c'est la garantie d'une tranquillité d'esprit totale. Nos visites préventives couvrent 10 points de contrôle stricts.
             </p>
             <div className="glass-panel" style={{ padding: '2rem', background: 'var(--surface)' }}>
               <h4 style={{ color: 'var(--secondary)', marginBottom: '1.5rem', borderBottom: '1px solid var(--surface-alt)', paddingBottom: '0.5rem' }}>❄️ Les 10 points de contrôle</h4>
@@ -333,16 +332,15 @@ export default function TarifsContent() {
             {/* Dépannage Chauffage */}
             <div className="glass-panel" style={{ padding: '2rem', display: 'flex', flexDirection: 'column' }}>
               <div style={{ textAlign: 'center', marginBottom: '2rem' }}>
-                <h3 style={{ margin: 0 }}>Dépannage Urgent</h3>
-                <p style={{ color: 'var(--text-muted)' }}>Plus d'eau chaude ou de chauffage ?</p>
-                <h2 className="text-accent" style={{ fontSize: '2rem', marginTop: '1rem', whiteSpace: 'nowrap' }}>Gratuit</h2>
-                <p style={{ margin: 0, fontSize: '0.8rem' }}>(Le devis de réparation)</p>
+                <h3 style={{ margin: 0 }}>Diagnostic de panne</h3>
+                <p style={{ color: 'var(--text-muted)' }}>Déplacement et 1h de main d'œuvre inclus</p>
+                <h2 className="text-accent" style={{ fontSize: '2rem', marginTop: '1rem', whiteSpace: 'nowrap' }}>99€<span style={{ fontSize: '1rem' }}> TTC</span></h2>
               </div>
               <ul style={{ listStyle: 'none', flexGrow: 1, display: 'flex', flexDirection: 'column', gap: '0.8rem', marginBottom: '2rem' }}>
-                <li>✓ Recherche de fuite (gaz/eau)</li>
-                <li>✓ Remplacement résistance / thermostat</li>
+                <li>✓ Déplacement rapide (&lt; 24h)</li>
+                <li>✓ Recherche de panne ou fuite</li>
+                <li>✓ Montant déduit si devis accepté</li>
                 <li>✓ Changement de pièces défectueuses</li>
-                <li>✓ Déplacement prioritaire</li>
               </ul>
               <a href="/reservation?type=depannage-chauffage" className="btn" style={{ width: '100%', background: 'var(--accent)', color: 'white' }}>Urgence Dépannage</a>
             </div>

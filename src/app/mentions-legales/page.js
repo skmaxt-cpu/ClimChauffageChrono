@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'Mentions Légales - Chrono Clim',
-  description: 'Mentions légales du site Chrono Clim, expert en chauffage, climatisation et pompes à chaleur.',
+  title: 'Mentions Légales - Clim Chrono',
+  description: 'Mentions légales du site Clim Chrono, expert en chauffage, climatisation et pompes à chaleur.',
 };
 
 export default function MentionsLegales() {
@@ -13,7 +13,7 @@ export default function MentionsLegales() {
         <section>
           <h2 style={{ color: 'var(--primary)', marginBottom: '1rem', borderBottom: '2px solid var(--surface-alt)', paddingBottom: '0.5rem' }}>1. Éditeur du site</h2>
           <div style={{ color: 'var(--text-muted)', lineHeight: '1.8' }}>
-            <p><strong>Raison sociale :</strong> Chrono Clim</p>
+            <p><strong>Raison sociale :</strong> Clim Chrono</p>
             <p><strong>Forme juridique :</strong> [À compléter - ex: SARL, SAS, Auto-entrepreneur]</p>
             <p><strong>Capital social :</strong> [À compléter]</p>
             <p><strong>Siège social :</strong> [Adresse à compléter]</p>
@@ -22,14 +22,14 @@ export default function MentionsLegales() {
             <p><strong>Numéro de TVA intracommunautaire :</strong> [À compléter]</p>
             <p><strong>Directeur de la publication :</strong> [Nom du gérant à compléter]</p>
             <p><strong>Téléphone :</strong> 07 58 93 92 18</p>
-            <p><strong>Email :</strong> contact@chronoclim.fr</p>
+            <p><strong>Email :</strong> cvcchrono@gmail.com</p>
           </div>
         </section>
 
         <section>
           <h2 style={{ color: 'var(--primary)', marginBottom: '1rem', borderBottom: '2px solid var(--surface-alt)', paddingBottom: '0.5rem' }}>2. Qualifications professionnelles</h2>
           <div style={{ color: 'var(--text-muted)', lineHeight: '1.8' }}>
-            <p>Chrono Clim est titulaire des certifications et qualifications suivantes :</p>
+            <p>Clim Chrono est titulaire des certifications et qualifications suivantes :</p>
             <ul style={{ paddingLeft: '1.5rem', marginTop: '0.5rem' }}>
               <li><strong>RGE QualiPAC</strong> – Qualification pour l'installation de pompes à chaleur.</li>
               <li><strong>Qualigaz</strong> – Habilitation pour les travaux sur les installations de gaz.</li>
@@ -55,7 +55,7 @@ export default function MentionsLegales() {
           <h2 style={{ color: 'var(--primary)', marginBottom: '1rem', borderBottom: '2px solid var(--surface-alt)', paddingBottom: '0.5rem' }}>4. Propriété intellectuelle</h2>
           <p style={{ color: 'var(--text-muted)', lineHeight: '1.8' }}>
             L'ensemble du contenu de ce site (textes, images, vidéos, logos, icônes, sons, logiciels, etc.) est protégé par les lois françaises et internationales relatives à la propriété intellectuelle. 
-            Toute reproduction, représentation, modification, publication, transmission, ou dénaturation, totale ou partielle du site ou de son contenu, par quelque procédé que ce soit, et sur quelque support que ce soit est interdite sans l'autorisation écrite préalable de Chrono Clim.
+            Toute reproduction, représentation, modification, publication, transmission, ou dénaturation, totale ou partielle du site ou de son contenu, par quelque procédé que ce soit, et sur quelque support que ce soit est interdite sans l'autorisation écrite préalable de Clim Chrono.
           </p>
         </section>
 
@@ -63,7 +63,7 @@ export default function MentionsLegales() {
           <h2 style={{ color: 'var(--primary)', marginBottom: '1rem', borderBottom: '2px solid var(--surface-alt)', paddingBottom: '0.5rem' }}>5. Limitation de responsabilité</h2>
           <p style={{ color: 'var(--text-muted)', lineHeight: '1.8' }}>
             Les informations contenues sur ce site sont aussi précises que possible et le site est périodiquement remis à jour, mais peut toutefois contenir des inexactitudes, des omissions ou des lacunes. 
-            Chrono Clim ne pourra être tenu responsable des dommages directs et indirects causés au matériel de l'utilisateur, lors de l'accès au site, résultant soit de l'utilisation d'un matériel ne répondant pas aux spécifications, soit de l'apparition d'un bug ou d'une incompatibilité.
+            Clim Chrono ne pourra être tenu responsable des dommages directs et indirects causés au matériel de l'utilisateur, lors de l'accès au site, résultant soit de l'utilisation d'un matériel ne répondant pas aux spécifications, soit de l'apparition d'un bug ou d'une incompatibilité.
           </p>
         </section>
 

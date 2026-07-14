@@ -318,7 +318,7 @@ export default function Reservation() {
               <span style={{ fontSize: '1.5rem' }}>✉️</span>
               <div>
                 <strong style={{ display: 'block' }}>Email</strong>
-                <a href="mailto:contact@chronoclim.fr" style={{ color: 'var(--text-muted)', textDecoration: 'none' }}>contact@chronoclim.fr</a>
+                <a href="mailto:cvcchrono@gmail.com" style={{ color: 'var(--text-muted)', textDecoration: 'none' }}>cvcchrono@gmail.com</a>
               </div>
             </div>
             <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>

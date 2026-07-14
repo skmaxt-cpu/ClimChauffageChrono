@@ -2,32 +2,49 @@ export const blogPosts = [
   {
     slug: '5-signes-remplacer-chaudiere',
     title: "5 signes qu'il est temps de remplacer votre vieille chaudière",
-    date: '2026-03-15',
+    date: '2026-07-15',
     category: 'Chauffage',
-    excerpt: 'Votre chaudière montre des signes de fatigue ? Découvrez les 5 indicateurs qui prouvent qu\'un remplacement par un modèle récent vous fera économiser de l\'argent et gagner en confort.',
+    excerpt: 'Bruits étranges, factures en hausse, douches écossaises... Découvrez les 5 indicateurs d\'alerte qui prouvent que votre chaudière est en fin de vie, et pourquoi le remplacement est souvent plus rentable que la réparation.',
     image: '/blog_chaudiere.png',
     content: `
-Une chaudière est le cœur de votre système de chauffage. Bien entretenue, elle peut durer une quinzaine d'années. Cependant, passé un certain cap, les réparations s'accumulent et le rendement chute drastiquement. 
+Le système de chauffage est le cœur battant de votre maison. Lorsqu'il fonctionne, on a tendance à l'oublier. Mais lorsqu'il commence à faiblir, c'est tout votre confort (et votre portefeuille) qui en pâtit. 
 
-Voici les 5 signes qui indiquent qu'il est temps d'envisager un remplacement :
+Une chaudière au gaz ou au fioul bien entretenue a une durée de vie moyenne de 12 à 15 ans. Au-delà, son rendement s'effondre et les risques de panne en plein hiver se multiplient. Mais comment savoir s'il faut simplement réparer ou définitivement remplacer ? 
 
-### 1. Des factures de gaz en hausse inexpliquée
-Si vous constatez que vos factures énergétiques augmentent alors que vos habitudes de chauffage n'ont pas changé, votre chaudière est probablement en cause. En vieillissant, les pièces s'usent et l'appareil perd en efficacité. Une chaudière à Très Haute Performance Énergétique (THPE) neuve peut vous faire économiser jusqu'à 30% sur votre facture.
+Voici les **5 signes qui ne trompent pas** :
 
-### 2. Des pannes de plus en plus fréquentes
-Vous appelez le réparateur plus d'une fois par an ? Les pièces de rechange deviennent difficiles à trouver ou coûtent très cher ? Il est souvent plus rentable d'investir dans un équipement neuf, garanti constructeur, plutôt que de s'acharner à réparer une machine en fin de vie.
+### 1. Vos factures d'énergie flambent (sans raison)
+C'est souvent le premier symptôme. Si vos habitudes de chauffage n'ont pas changé et que l'hiver n'a pas été particulièrement rude, mais que votre facture de gaz s'envole, c'est que votre chaudière surconsomme. 
+*Pourquoi ?* L'entartrage, l'usure du brûleur et la perte de rendement global obligent la machine à consommer plus d'énergie pour produire la même quantité de chaleur. Un modèle récent à Très Haute Performance Énergétique (THPE) ou une Pompe à Chaleur peut diviser cette facture par deux, voire par trois.
 
-### 3. L'eau chaude met du temps à arriver (ou fluctue)
-Si la température de l'eau sous la douche passe du brûlant au glacé sans raison, ou si vous devez laisser couler l'eau très longtemps avant d'avoir de la chaleur, c'est le signe d'un entartrage massif ou d'un échangeur thermique défaillant.
+### 2. Le syndrome de la "douche écossaise"
+Rien de plus désagréable que de voir l'eau de la douche passer du brûlant au glacé en quelques secondes. Ce problème d'instabilité de température (ou une eau chaude qui met plusieurs minutes à arriver) indique généralement que l'échangeur à plaques est obstrué par le calcaire, ou que la vanne trois voies rend l'âme.
 
-### 4. Des bruits inhabituels
-Une chaudière saine est relativement silencieuse. Si elle commence à faire des bruits de claquement, de sifflement, ou de bouillonnement, cela peut indiquer un problème sérieux (tartre, problème de pression, pompe fatiguée).
+### 3. Des pannes à répétition (le gouffre financier)
+Vous connaissez le prénom de votre chauffagiste par cœur car il vient réparer votre installation plusieurs fois par an ? C'est le signe critique de l'acharnement thérapeutique.
+Même si changer une pièce semble moins cher sur le moment, l'accumulation des factures de dépannage dépasse rapidement le coût de l'amortissement d'un équipement neuf et garanti. De plus, pour les chaudières de plus de 15 ans, trouver des pièces de rechange devient un véritable parcours du combattant.
 
-### 5. Elle a plus de 15 ans
-Même si elle semble fonctionner, une chaudière de cet âge utilise une technologie dépassée (souvent sans condensation). Passer à un modèle moderne à condensation vous offre non seulement des économies, mais aussi un impact environnemental bien moindre.
+### 4. Bruits suspects et claquements
+Une installation saine émet un léger ronronnement régulier. Si votre chaudière commence à produire des :
+- **Claquements secs** : signe d'un mauvais allumage ou d'un problème de brûleur.
+- **Bouillonnements** : souvent dû à la présence d'air ou de boues dans le circuit de chauffage.
+- **Sifflements continus** : indicateur d'un entartrage du corps de chauffe ou d'un problème de pression.
+Ces bruits sont les cris d'agonie de votre système. Ne les ignorez pas.
 
-**Conclusion**
-Ne attendez pas que votre chaudière vous lâche en plein hiver ! Anticipez le remplacement. Chez Chrono Clim, nous vous accompagnons de A à Z, du diagnostic gratuit jusqu'au montage de vos dossiers de subventions de l'État.
+### 5. Elle approche (ou dépasse) le cap des 15 ans
+L'âge ne pardonne pas en matière de chauffage. Une chaudière de 15 ans, même si elle "semble" encore fonctionner, utilise une technologie totalement obsolète. Elle ne condense pas les fumées et rejette beaucoup de CO2. 
+Aujourd'hui, les normes environnementales poussent vers des solutions bien plus écologiques et économiques.
+
+---
+
+### La question décisive : Par quoi la remplacer ?
+
+Si vous vous reconnaissez dans plusieurs de ces points, le remplacement est la décision la plus sage financièrement. Aujourd'hui, deux solutions s'offrent à vous :
+1. **La Pompe à Chaleur (PAC) Air/Eau** : C'est le choix d'avenir. Zéro gaz, 100% électrique et renouvelable. Elle s'adapte à vos anciens radiateurs et divise vos factures de manière drastique, tout en bénéficiant de subventions d'État massives (MaPrimeRénov', CEE).
+2. **La Chaudière Gaz à Condensation (THPE)** : Si votre logement ne permet pas l'installation d'une pompe à chaleur, c'est la meilleure alternative pour réduire votre consommation de 30% tout en garantissant une fiabilité à toute épreuve.
+
+**Vous avez un doute ?** 
+Ne risquez pas la panne générale fin décembre. L'équipe **Clim Chrono** se déplace chez vous pour un diagnostic technique complet et gratuit. Nous vous orienterons vers la solution la plus adaptée à votre logement et à votre budget.
     `
   },
   {
@@ -54,7 +71,7 @@ La magie de la PAC réside dans son COP (Coefficient de Performance). Pour 1 kWh
 Avec un seul appareil, vous gérez vos besoins thermiques toute l'année. Les unités intérieures modernes (splits) sont ultra-silencieuses et permettent un réglage au dixième de degré près. 
 
 **3. La purification de l'air**
-Les systèmes réversibles que nous installons chez Chrono Clim sont équipés de filtres perfectionnés qui capturent les poussières, les pollens, et même certaines bactéries et virus. C'est un point clé pour les personnes allergiques ou asthmatiques.
+Les systèmes réversibles que nous installons chez Clim Chrono sont équipés de filtres perfectionnés qui capturent les poussières, les pollens, et même certaines bactéries et virus. C'est un point clé pour les personnes allergiques ou asthmatiques.
 
 ### Mural, Console ou Gainable ?
 - **Le mural (Split)** : Fixé en haut d'un mur, c'est le plus courant et le moins cher à installer.
@@ -83,7 +100,7 @@ Pendant l'hiver, de la poussière s'accumule dans les filtres. Avec l'humidité 
 Un filtre encrassé empêche l'air de circuler correctement. La machine doit donc forcer pour atteindre la température demandée. Résultat : votre consommation électrique peut grimper de 25% !
 
 ### 3. Prévenir les pannes coûteuses (et les fuites d'eau)
-Lors d'un entretien, le technicien Chrono Clim ne fait pas que nettoyer. Il :
+Lors d'un entretien, le technicien Clim Chrono ne fait pas que nettoyer. Il :
 - Vérifie les pressions de gaz frigorigène (une fuite rend l'appareil inefficace).
 - Contrôle le compresseur (le moteur extérieur).
 - Nettoie le bac à condensats (qui, s'il est bouché par des boues, va déborder sur votre mur intérieur !).
@@ -91,7 +108,7 @@ Lors d'un entretien, le technicien Chrono Clim ne fait pas que nettoyer. Il :
 ### 4. C'est une obligation légale
 Depuis 2020, l'entretien des pompes à chaleur et climatisations réversibles dont la puissance est supérieure à 4 kW est **obligatoire tous les 2 ans**. Un certificat d'entretien vous est remis (souvent demandé par les assurances en cas de sinistre).
 
-**Le conseil Chrono Clim** : N'attendez pas le mois de juillet pour appeler un technicien ! En anticipant l'entretien au printemps (avril-mai), vous êtes certain d'avoir un appareil opérationnel et prêt à affronter les canicules sereinement.
+**Le conseil Clim Chrono** : N'attendez pas le mois de juillet pour appeler un technicien ! En anticipant l'entretien au printemps (avril-mai), vous êtes certain d'avoir un appareil opérationnel et prêt à affronter les canicules sereinement.
     `
   },
   {
@@ -127,7 +144,37 @@ Vous n'avez pas l'épargne nécessaire ? Les banques peuvent vous prêter jusqu'
 ### La condition sine qua non : le label RGE
 Pour bénéficier de **toutes** ces aides, il y a une obligation légale : l'entreprise qui réalise les travaux doit être certifiée **RGE (Reconnu Garant de l'Environnement)**. 
 
-C'est bien sûr le cas de Chrono Clim. Mais nous allons plus loin : nous savons que l'administratif rebute beaucoup de clients. C'est pourquoi notre équipe vous aide à estimer vos primes et vous accompagne de A à Z dans la constitution de vos dossiers.
+C'est bien sûr le cas de Clim Chrono. Mais nous allons plus loin : nous savons que l'administratif rebute beaucoup de clients. C'est pourquoi notre équipe vous aide à estimer vos primes et vous accompagne de A à Z dans la constitution de vos dossiers.
     `
+  },
+  {
+    slug: 'installation-climatisation-paris-reglementation',
+    title: "Installation d'une climatisation à Paris : la réglementation en copropriété",
+    date: '2026-06-15',
+    category: 'Installation',
+    excerpt: 'Installer une climatisation à Paris ou en Île-de-France demande de respecter certaines règles d\'urbanisme et de copropriété. Découvrez les démarches obligatoires.',
+    image: '/blog_pac.png',
+    content: `
+L'installation d'une climatisation ou d'une pompe à chaleur à Paris et en Île-de-France n'est pas qu'une question technique. Dans une zone urbaine dense, la réglementation et le Code de l'urbanisme imposent des règles strictes.
+
+Voici ce qu'il faut savoir pour mener à bien votre projet d'installation dans les règles de l'art.
+
+### 1. La Déclaration Préalable de Travaux (Mairie)
+Dès lors que vous installez un groupe extérieur (le moteur de la climatisation) sur une façade, un balcon, ou dans une cour, vous modifiez l'aspect extérieur du bâtiment. 
+Selon le Code de l'urbanisme, vous devez déposer une **déclaration préalable de travaux (DP)** au service d'urbanisme de la Mairie.
+- **Secteur sauvegardé** : Si votre immeuble se trouve près d'un monument historique, l'Architecte des Bâtiments de France (ABF) devra donner son accord. L'unité extérieure devra souvent être masquée par un cache-climatisation.
+
+### 2. L'accord de la Copropriété
+Si vous vivez en appartement, la Mairie ne suffit pas. Les façades et balcons sont considérés comme des "parties communes" (ou des parties privatives à jouissance exclusive avec impact sur l'esthétique globale).
+- Il est **obligatoire** d'obtenir l'accord de l'assemblée générale (AG) des copropriétaires.
+- **Le conseil Clim Chrono** : Préparez un dossier solide pour votre syndic en incluant nos fiches techniques prouvant le faible niveau sonore de l'appareil.
+
+### 3. Les normes de nuisance sonore
+Le bruit généré par le compresseur ne doit pas dépasser le "bruit de fond" naturel de plus de 5 décibels (dB) le jour, et de 3 dB la nuit.
+Heureusement, les pompes à chaleur de grandes marques (Daikin, Mitsubishi) que nous installons sont aujourd'hui extrêmement silencieuses. De plus, nous proposons la pose sur *silent blocs* pour éviter toute propagation de vibrations.
+
+### L'expertise Clim Chrono à votre service
+Chez Clim Chrono, nous avons l'habitude des contraintes parisiennes. Lors de notre diagnostic, nous évaluons la faisabilité de votre projet et pouvons vous assister dans la constitution de votre dossier technique pour le syndic.
+`
   }
 ];

@@ -1,5 +1,8 @@
+import Image from 'next/image';
+import InteractiveClimSchema from '@/components/InteractiveClimSchema';
+
 export const metadata = {
-  title: 'Expert Climatisation & Pompes à Chaleur - Chrono Clim',
+  title: 'Expert Climatisation & Pompes à Chaleur - Clim Chrono',
   description: 'Installation, entretien et dépannage de climatisations réversibles et pompes à chaleur. Découvrez notre expertise et les avantages d\'un matériel bien entretenu.',
   alternates: {
     canonical: 'https://www.chronoclim.fr/climatisation',
@@ -12,7 +15,7 @@ export default function Climatisation() {
       <h1 className="text-center" style={{ marginBottom: '1rem' }}>Expertise <span className="text-secondary">Climatisation & PAC</span></h1>
       <p className="text-center" style={{ color: 'var(--text-muted)', maxWidth: '800px', margin: '0 auto 4rem auto', fontSize: '1.1rem' }}>
         De l'étude de votre projet à l'installation, en passant par la maintenance annuelle et le dépannage d'urgence, 
-        Chrono Clim est votre partenaire de confiance pour un confort thermique absolu en toute saison.
+        Clim Chrono est votre partenaire de confiance pour un confort thermique absolu en toute saison.
       </p>
 
       {/* Installation & Remplacement */}
@@ -33,7 +36,7 @@ export default function Climatisation() {
             <a href="/reservation?type=devis-clim" className="btn btn-primary" style={{ marginTop: '2rem' }}>Demander un devis gratuit</a>
           </div>
           <div>
-            <img src="/hero-ac.png" alt="Installation Climatisation" style={{ width: '100%', borderRadius: 'var(--radius-md)', boxShadow: 'var(--shadow-md)' }} />
+            <Image src="/hero-ac.png" alt="Installation Climatisation" width={600} height={400} priority style={{ width: '100%', height: 'auto', borderRadius: 'var(--radius-md)', boxShadow: 'var(--shadow-md)' }} />
           </div>
         </div>
       </div>
@@ -69,6 +72,15 @@ export default function Climatisation() {
         </div>
       </div>
 
+      {/* Schéma Interactif d'Installation */}
+      <div style={{ marginBottom: '4rem' }}>
+        <h2 className="text-center" style={{ marginBottom: '1rem' }}>Visualisez votre future installation</h2>
+        <p className="text-center" style={{ color: 'var(--text-muted)', maxWidth: '800px', margin: '0 auto 4rem auto', fontSize: '1.05rem' }}>
+          Découvrez le rôle de chaque équipement d'une installation de climatisation (pompe à chaleur air/air) à travers notre schéma interactif complet.
+        </p>
+        <InteractiveClimSchema />
+      </div>
+
       {/* Dimensionnement */}
       <div className="glass-panel" style={{ padding: '3rem', marginBottom: '4rem', borderTop: '4px solid var(--primary-light)' }}>
         <h2 style={{ color: 'var(--primary)' }}>📐 Le Dimensionnement : la Clé d'une Installation Réussie</h2>
@@ -80,7 +92,7 @@ export default function Climatisation() {
         
         <h4 style={{ color: 'var(--text-main)', marginBottom: '1.5rem' }}>Comment dimensionne-t-on correctement ?</h4>
         <p style={{ color: 'var(--text-muted)', marginBottom: '2rem' }}>
-          Chez Chrono Clim, nous réalisons un <strong>bilan thermique complet et gratuit</strong> avant chaque installation. Ce bilan prend en compte tous les paramètres qui influencent les besoins en puissance :
+          Chez Clim Chrono, nous réalisons un <strong>bilan thermique complet et gratuit</strong> avant chaque installation. Ce bilan prend en compte tous les paramètres qui influencent les besoins en puissance :
         </p>
 
         <div className="grid grid-3" style={{ gap: '1.5rem', marginBottom: '2rem' }}>
@@ -143,7 +155,7 @@ export default function Climatisation() {
             <a href="/reservation?type=entretien-clim" className="btn btn-secondary" style={{ marginTop: '2rem', width: '100%' }}>Réserver un entretien (dès 120€ TTC)</a>
           </div>
           <div style={{ order: 1 }}>
-            <img src="/clim_entretien.png" alt="Entretien Climatisation" style={{ width: '100%', borderRadius: 'var(--radius-md)', boxShadow: 'var(--shadow-md)' }} />
+            <Image src="/clim_entretien.png" alt="Entretien Climatisation" width={400} height={300} style={{ width: '100%', height: 'auto', borderRadius: 'var(--radius-md)', boxShadow: 'var(--shadow-md)' }} />
           </div>
         </div>
       </div>
@@ -209,14 +221,14 @@ export default function Climatisation() {
             </div>
 
             <div style={{ background: '#fff3cd', padding: '1rem', borderRadius: 'var(--radius-sm)', border: '1px solid #ffeeba', color: '#856404', marginBottom: '2rem' }}>
-              <strong>Le saviez-vous ?</strong> Le diagnostic et le devis de réparation sont 100% gratuits et sans engagement chez Chrono Clim.
+              <strong>Le saviez-vous ?</strong> Le diagnostic et le devis de réparation sont 100% gratuits et sans engagement chez Clim Chrono.
             </div>
 
             <a href="/reservation?type=depannage-clim" className="btn" style={{ background: 'var(--text-main)', color: 'white', width: '100%' }}>Urgence Dépannage</a>
           </div>
           
           <div>
-            <img src="/clim_depannage.png" alt="Dépannage Climatisation" style={{ width: '100%', borderRadius: 'var(--radius-md)', boxShadow: 'var(--shadow-md)' }} />
+            <Image src="/clim_depannage.png" alt="Dépannage Climatisation" width={400} height={300} style={{ width: '100%', height: 'auto', borderRadius: 'var(--radius-md)', boxShadow: 'var(--shadow-md)' }} />
           </div>
         </div>
       </div>

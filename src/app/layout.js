@@ -5,7 +5,7 @@ import WhatsAppButton from '@/components/WhatsAppButton';
 import MobileMenu from '@/components/MobileMenu';
 
 import { headers } from 'next/headers';
-
+import Script from 'next/script';
 export async function generateMetadata() {
   const headersList = await headers();
   const host = headersList.get('host') || '';
@@ -17,10 +17,10 @@ export async function generateMetadata() {
   return {
     metadataBase: new URL(url),
     title: {
-      default: `${siteName} | Expert Chauffage et Climatisation en Île-de-France`,
+      default: `${siteName} | Climatisation, Chauffage & Dépannage Paris`,
       template: `%s | ${siteName}`,
     },
-    description: 'Expert en installation, entretien et dépannage de climatisations, pompes à chaleur, chaudières gaz et ballons d\'eau chaude en Île-de-France. Intervention rapide, matériel des plus grandes marques. Devis gratuit.',
+    description: 'Expert installation, entretien et dépannage de climatisation, pompe à chaleur et chaudière en Île-de-France. Intervention sous 24h, devis gratuit.',
     keywords: ['climatisation', 'chauffage', 'CVC', 'pompe à chaleur', 'chaudière gaz', 'ballon eau chaude', 'dépannage chauffage', 'entretien climatisation', 'installation PAC', siteName, 'Île-de-France', 'climatiseur réversible'],
     authors: [{ name: siteName }],
     creator: siteName,
@@ -35,8 +35,8 @@ export async function generateMetadata() {
       locale: 'fr_FR',
       url: url,
       siteName: siteName,
-      title: `${siteName} | Expert Chauffage et Climatisation en Île-de-France`,
-      description: 'Installation, entretien et dépannage de climatisations, pompes à chaleur et chaudières gaz. Intervention rapide, devis gratuit.',
+      title: `${siteName} | Climatisation, Chauffage & Dépannage Paris`,
+      description: 'Expert installation, entretien et dépannage de climatisation, pompe à chaleur et chaudière en Île-de-France. Intervention sous 24h, devis gratuit.',
       images: [
         {
           url: logo,
@@ -48,8 +48,8 @@ export async function generateMetadata() {
     },
     twitter: {
       card: 'summary_large_image',
-      title: `${siteName} | Expert Chauffage et Climatisation`,
-      description: 'Installation, entretien et dépannage de climatisations, pompes à chaleur et chaudières gaz en Île-de-France.',
+      title: `${siteName} | Climatisation, Chauffage & Dépannage Paris`,
+      description: 'Expert installation, entretien et dépannage de climatisation, pompe à chaleur et chaudière en Île-de-France. Intervention sous 24h, devis gratuit.',
       images: [logo],
     },
     alternates: {
@@ -78,20 +78,40 @@ export default async function RootLayout({ children }) {
   const url = isChauffage ? 'https://www.chauffagechrono.fr' : 'https://www.climchrono.fr';
   return (
     <html lang="fr">
+      <head>
+        {/* Google Tag Manager */}
+        <Script
+          id="gtm-script"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NZ4M8QD6');`
+          }}
+        />
+        {/* End Google Tag Manager */}
+      </head>
       <body>
-        <script
+        {/* Google Tag Manager (noscript) */}
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NZ4M8QD6"
+          height="0" width="0" style={{ display: 'none', visibility: 'hidden' }}></iframe></noscript>
+        {/*End Google Tag Manager (noscript) */}
+        <Script
+          id="json-ld-layout"
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "LocalBusiness",
-              "name": "Chrono Clim",
+              "name": "Clim Chrono",
               "description": "Expert en installation, entretien et dépannage de climatisations, pompes à chaleur, chaudières gaz et ballons d'eau chaude en Île-de-France.",
               "url": "https://www.chronoclim.fr",
               "logo": "https://www.chronoclim.fr/logo.png",
               "image": "https://www.chronoclim.fr/logo.png",
               "telephone": "+33758939218",
-              "email": "contact@chronoclim.fr",
+              "email": "cvcchrono@gmail.com",
               "priceRange": "€€",
               "openingHoursSpecification": [
                 {
@@ -162,15 +182,15 @@ export default async function RootLayout({ children }) {
           </div>
           <MobileMenu />
         </nav>
-        
+
         <main>
           {children}
         </main>
-        
+
         <footer style={{ background: 'linear-gradient(135deg, #0f172a 0%, #1e293b 100%)', color: '#f8fafc', marginTop: '4rem', padding: '5rem 0 2rem 0' }}>
           <div className="container">
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '3rem', marginBottom: '4rem' }}>
-              
+
               {/* Brand & Social */}
               <div>
                 <div style={{ background: 'white', display: 'inline-block', padding: '0.5rem 1rem', borderRadius: '8px', marginBottom: '1.5rem' }}>
@@ -213,12 +233,12 @@ export default async function RootLayout({ children }) {
                 <h4 style={{ color: 'white', marginBottom: '1.5rem', fontSize: '1.2rem', fontWeight: 600 }}>Nous contacter</h4>
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '1.2rem', color: '#94a3b8', fontSize: '0.95rem' }}>
                   <p style={{ margin: 0, display: 'flex', alignItems: 'center', gap: '0.8rem' }}>
-                    <span style={{ fontSize: '1.2rem' }}>📞</span> 
+                    <span style={{ fontSize: '1.2rem' }}>📞</span>
                     <strong style={{ color: 'white', fontSize: '1.1rem' }}>07 58 93 92 18</strong>
                   </p>
                   <p style={{ margin: 0, display: 'flex', alignItems: 'center', gap: '0.8rem' }}>
-                    <span style={{ fontSize: '1.2rem' }}>✉️</span> 
-                    <a href="mailto:contact@chronoclim.fr" className="footer-link">contact@chronoclim.fr</a>
+                    <span style={{ fontSize: '1.2rem' }}>✉️</span>
+                    <a href="mailto:cvcchrono@gmail.com" className="footer-link">cvcchrono@gmail.com</a>
                   </p>
                 </div>
               </div>
@@ -232,30 +252,30 @@ export default async function RootLayout({ children }) {
             }}>
               <h4 style={{ color: 'white', marginBottom: '1rem', fontSize: '1rem', fontWeight: 600 }}>Zones d'intervention en Île-de-France</h4>
               <p style={{ color: '#64748b', fontSize: '0.85rem', lineHeight: '1.6', margin: 0 }}>
-                <strong>Paris (75) :</strong> Paris 1er, Paris 2e, Paris 3e, Paris 4e, Paris 5e, Paris 6e, Paris 7e, Paris 8e, Paris 9e, Paris 10e, Paris 11e, Paris 12e, Paris 13e, Paris 14e, Paris 15e, Paris 16e, Paris 17e, Paris 18e, Paris 19e, Paris 20e. <br/>
-                <strong>Seine-et-Marne (77) :</strong> Meaux, Chelles, Melun, Pontault-Combault, Savigny-le-Temple, Bussy-Saint-Georges, Villeparisis, Roissy-en-Brie, Dammarie-les-Lys, Montereau-Fault-Yonne, Lagny-sur-Marne, Ozoir-la-Ferrière, Bussy-Saint-Martin, Torcy. <br/>
-                <strong>Yvelines (78) :</strong> Versailles, Sartrouville, Mantes-la-Jolie, Saint-Germain-en-Laye, Poissy, Montigny-le-Bretonneux, Conflans-Sainte-Honorine, Les Mureaux, Houilles, Plaisir, Chatou, Le Chesnay-Rocquencourt, Guyancourt, Élancourt, Rambouillet. <br/>
-                <strong>Essonne (91) :</strong> Évry-Courcouronnes, Corbeil-Essonnes, Massy, Savigny-sur-Orge, Sainte-Geneviève-des-Bois, Viry-Châtillon, Athis-Mons, Palaiseau, Yerres, Draveil, Ris-Orangis, Vigneux-sur-Seine, Brunoy, Les Ulis, Montgeron, Brétigny-sur-Orge. <br/>
-                <strong>Hauts-de-Seine (92) :</strong> Boulogne-Billancourt, Nanterre, Asnières-sur-Seine, Colombes, Courbevoie, Rueil-Malmaison, Issy-les-Moulineaux, Levallois-Perret, Antony, Neuilly-sur-Seine, Clichy, Clamart, Montrouge, Suresnes, Meudon, Puteaux, Gennevilliers, Bagneux. <br/>
-                <strong>Seine-Saint-Denis (93) :</strong> Saint-Denis, Montreuil, Aulnay-sous-Bois, Aubervilliers, Drancy, Noisy-le-Grand, Pantin, Le Blanc-Mesnil, Épinay-sur-Seine, Bondy, Bobigny, Sevran, Saint-Ouen-sur-Seine, Rosny-sous-Bois, Livry-Gargan, Noisy-le-Sec. <br/>
-                <strong>Val-de-Marne (94) :</strong> Vitry-sur-Seine, Créteil, Champigny-sur-Marne, Saint-Maur-des-Fossés, Ivry-sur-Seine, Maisons-Alfort, Villejuif, Fontenay-sous-Bois, Vincennes, Alfortville, Choisy-le-Roi, Le Perreux-sur-Marne, L'Haÿ-les-Roses, Villeneuve-Saint-Georges, Thiais, Nogent-sur-Marne. <br/>
+                <strong>Paris (75) :</strong> Paris 1er, Paris 2e, Paris 3e, Paris 4e, Paris 5e, Paris 6e, Paris 7e, Paris 8e, Paris 9e, Paris 10e, Paris 11e, Paris 12e, Paris 13e, Paris 14e, Paris 15e, Paris 16e, Paris 17e, Paris 18e, Paris 19e, Paris 20e. <br />
+                <strong>Seine-et-Marne (77) :</strong> Meaux, Chelles, Melun, Pontault-Combault, Savigny-le-Temple, Bussy-Saint-Georges, Villeparisis, Roissy-en-Brie, Dammarie-les-Lys, Montereau-Fault-Yonne, Lagny-sur-Marne, Ozoir-la-Ferrière, Bussy-Saint-Martin, Torcy. <br />
+                <strong>Yvelines (78) :</strong> Versailles, Sartrouville, Mantes-la-Jolie, Saint-Germain-en-Laye, Poissy, Montigny-le-Bretonneux, Conflans-Sainte-Honorine, Les Mureaux, Houilles, Plaisir, Chatou, Le Chesnay-Rocquencourt, Guyancourt, Élancourt, Rambouillet. <br />
+                <strong>Essonne (91) :</strong> Évry-Courcouronnes, Corbeil-Essonnes, Massy, Savigny-sur-Orge, Sainte-Geneviève-des-Bois, Viry-Châtillon, Athis-Mons, Palaiseau, Yerres, Draveil, Ris-Orangis, Vigneux-sur-Seine, Brunoy, Les Ulis, Montgeron, Brétigny-sur-Orge. <br />
+                <strong>Hauts-de-Seine (92) :</strong> Boulogne-Billancourt, Nanterre, Asnières-sur-Seine, Colombes, Courbevoie, Rueil-Malmaison, Issy-les-Moulineaux, Levallois-Perret, Antony, Neuilly-sur-Seine, Clichy, Clamart, Montrouge, Suresnes, Meudon, Puteaux, Gennevilliers, Bagneux. <br />
+                <strong>Seine-Saint-Denis (93) :</strong> Saint-Denis, Montreuil, Aulnay-sous-Bois, Aubervilliers, Drancy, Noisy-le-Grand, Pantin, Le Blanc-Mesnil, Épinay-sur-Seine, Bondy, Bobigny, Sevran, Saint-Ouen-sur-Seine, Rosny-sous-Bois, Livry-Gargan, Noisy-le-Sec. <br />
+                <strong>Val-de-Marne (94) :</strong> Vitry-sur-Seine, Créteil, Champigny-sur-Marne, Saint-Maur-des-Fossés, Ivry-sur-Seine, Maisons-Alfort, Villejuif, Fontenay-sous-Bois, Vincennes, Alfortville, Choisy-le-Roi, Le Perreux-sur-Marne, L'Haÿ-les-Roses, Villeneuve-Saint-Georges, Thiais, Nogent-sur-Marne. <br />
                 <strong>Val-d'Oise (95) :</strong> Argenteuil, Cergy, Garges-lès-Gonesse, Franconville, Pontoise, Bezons, Ermont, Villiers-le-Bel, Goussainville, Taverny, Herblay-sur-Seine, Sannois, Eaubonne, Saint-Ouen-l'Aumône, Cormeilles-en-Parisis, Deuil-la-Barre, Montmorency, Saint-Gratien.
               </p>
             </div>
 
             {/* Bottom Bar */}
-            <div style={{ 
-              borderTop: '1px solid rgba(255,255,255,0.1)', 
-              paddingTop: '2rem', 
-              display: 'flex', 
-              justifyContent: 'space-between', 
+            <div style={{
+              borderTop: '1px solid rgba(255,255,255,0.1)',
+              paddingTop: '2rem',
+              display: 'flex',
+              justifyContent: 'space-between',
               alignItems: 'center',
               flexWrap: 'wrap',
               gap: '1rem',
               fontSize: '0.85rem',
               color: '#64748b'
             }}>
-              <div>&copy; {new Date().getFullYear()} Chrono Clim. Tous droits réservés.</div>
+              <div>&copy; {new Date().getFullYear()} Clim Chrono. Tous droits réservés.</div>
               <div style={{ display: 'flex', gap: '1.5rem', flexWrap: 'wrap' }}>
                 <a href="/mentions-legales" className="footer-link">Mentions légales</a>
                 <a href="/politique-confidentialite" className="footer-link">Politique de confidentialité</a>

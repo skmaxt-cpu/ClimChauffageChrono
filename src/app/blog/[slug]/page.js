@@ -16,7 +16,7 @@ export async function generateMetadata({ params }) {
   if (!post) return { title: 'Article non trouvé' };
 
   return {
-    title: `${post.title} - Blog Chrono Clim`,
+    title: `${post.title} - Blog Clim Chrono`,
     description: post.excerpt,
   };
 }

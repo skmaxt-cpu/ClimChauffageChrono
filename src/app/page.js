@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import Image from 'next/image';
 import TestimonialsCarousel from '@/components/TestimonialsCarousel';
 
 export default function Home() {
@@ -31,17 +32,23 @@ export default function Home() {
         <div style={{
           position: 'absolute',
           top: 0, left: 0, right: 0, bottom: 0,
-          backgroundImage: 'url(/hero-ac.png)',
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
           opacity: 0.15,
           zIndex: -1
-        }} />
+        }}>
+          <Image 
+            src="/hero-ac.png" 
+            alt="Climatisation et Chauffage Premium" 
+            fill 
+            priority
+            style={{ objectFit: 'cover', objectPosition: 'center' }} 
+            sizes="100vw"
+          />
+        </div>
         
         <div className="container grid grid-2 animate-fade-in-up" style={{ alignItems: 'center' }}>
           <div>
             <h1 style={{ fontSize: '3.5rem', marginBottom: '1.5rem', color: 'var(--text-main)' }}>
-              L'excellence du <span className="text-secondary">confort thermique.</span>
+              Expert <span className="text-secondary">Climatisation & Chauffage</span> à Paris
             </h1>
             <p style={{ fontSize: '1.2rem', color: 'var(--text-muted)', marginBottom: '2rem' }}>
               Installation de climatisations haut de gamme, entretien expert et dépannage rapide. Les plus grandes marques à votre service.
@@ -68,7 +75,7 @@ export default function Home() {
           </div>
           
           <div style={{ position: 'relative' }}>
-            <img src="/hero-ac.png" alt="Premium Air Conditioning" style={{ width: '100%', borderRadius: 'var(--radius-lg)', boxShadow: 'var(--shadow-lg)' }} />
+            <Image src="/hero-ac.png" alt="Premium Air Conditioning" width={600} height={400} priority style={{ width: '100%', height: 'auto', borderRadius: 'var(--radius-lg)', boxShadow: 'var(--shadow-lg)' }} />
             <div className="glass-panel" style={{ 
               position: 'absolute', 
               bottom: '-20px', 
@@ -142,10 +149,10 @@ export default function Home() {
       {/* Services Preview */}
       <section className="section text-center">
         <div className="container">
-          <h2 style={{ marginBottom: '3rem' }}>Notre Expertise CVC</h2>
+          <h2 style={{ marginBottom: '3rem' }}>Notre Expertise : Installation, Entretien et Dépannage</h2>
           <div className="grid grid-2" style={{ maxWidth: '900px', margin: '0 auto', gap: '3rem' }}>
             <a href="/climatisation" className="glass-panel" style={{ display: 'block', textDecoration: 'none', transition: 'transform 0.3s', overflow: 'hidden' }} onMouseOver={(e) => e.currentTarget.style.transform = 'translateY(-5px)'} onMouseOut={(e) => e.currentTarget.style.transform = 'translateY(0)'}>
-              <img src="/expertise_clim.png" alt="Climatisation moderne dans un salon" style={{ width: '100%', height: '200px', objectFit: 'cover' }} />
+              <Image src="/expertise_clim.png" alt="Climatisation moderne dans un salon" width={400} height={200} style={{ width: '100%', height: '200px', objectFit: 'cover' }} />
               <div style={{ padding: '2rem' }}>
                 <h3 style={{ color: 'var(--secondary)', fontSize: '1.5rem', marginBottom: '0.8rem' }}>❄️ Climatisation & PAC</h3>
                 <p style={{ color: 'var(--text-muted)', fontSize: '0.95rem' }}>Installation, entretien et dépannage de vos climatisations réversibles et pompes à chaleur. Confort garanti été comme hiver.</p>
@@ -154,7 +161,7 @@ export default function Home() {
             </a>
             
             <a href="/chauffage" className="glass-panel" style={{ display: 'block', textDecoration: 'none', transition: 'transform 0.3s', overflow: 'hidden' }} onMouseOver={(e) => e.currentTarget.style.transform = 'translateY(-5px)'} onMouseOut={(e) => e.currentTarget.style.transform = 'translateY(0)'}>
-              <img src="/expertise_chauffage.png" alt="Chaudière moderne installée" style={{ width: '100%', height: '200px', objectFit: 'cover' }} />
+              <Image src="/expertise_chauffage.png" alt="Chaudière moderne installée" width={400} height={200} style={{ width: '100%', height: '200px', objectFit: 'cover' }} />
               <div style={{ padding: '2rem' }}>
                 <h3 style={{ color: 'var(--accent)', fontSize: '1.5rem', marginBottom: '0.8rem' }}>🔥 Chauffage & Eau Chaude</h3>
                 <p style={{ color: 'var(--text-muted)', fontSize: '0.95rem' }}>Pose de chaudières à Gaz THPE, dépannage de ballons d'eau chaude et entretien obligatoire. Sécurité et rendement optimal.</p>
@@ -168,7 +175,7 @@ export default function Home() {
       {/* Trust & Guarantees */}
       <section className="section" style={{ backgroundColor: 'var(--surface-alt)' }}>
         <div className="container">
-          <h2 className="text-center" style={{ marginBottom: '3rem' }}>Pourquoi choisir <span className="text-primary">Chrono Clim</span> ?</h2>
+          <h2 className="text-center" style={{ marginBottom: '3rem' }}>Pourquoi choisir <span className="text-primary">Clim Chrono</span> ?</h2>
           <div className="grid grid-3">
             <div className="glass-panel" style={{ padding: '2rem', textAlign: 'center' }}>
               <div style={{ fontSize: '2.5rem', marginBottom: '1rem' }}>📜</div>
@@ -182,8 +189,8 @@ export default function Home() {
             </div>
             <div className="glass-panel" style={{ padding: '2rem', textAlign: 'center' }}>
               <div style={{ fontSize: '2.5rem', marginBottom: '1rem' }}>⚡</div>
-              <h4 style={{ color: 'var(--text-main)' }}>Intervention 48h</h4>
-              <p style={{ color: 'var(--text-muted)', fontSize: '0.9rem' }}>En cas de panne totale de chauffage ou de fuite grave, nous nous engageons à intervenir sous 48h ouvrées. Devis gratuit.</p>
+              <h4 style={{ color: 'var(--text-main)' }}>Intervention 24h</h4>
+              <p style={{ color: 'var(--text-muted)', fontSize: '0.9rem' }}>En cas de panne totale de chauffage ou de fuite grave, nous nous engageons à intervenir sous 24h ouvrées. Devis gratuit.</p>
             </div>
           </div>
         </div>
@@ -209,7 +216,7 @@ export default function Home() {
               <p style={{ opacity: 0.85, margin: '0.5rem 0 0 0' }}>Installations réalisées</p>
             </div>
             <div>
-              <h2 style={{ fontSize: '3rem', color: 'var(--secondary)', margin: '0' }}>&lt;48h</h2>
+              <h2 style={{ fontSize: '3rem', color: 'var(--secondary)', margin: '0' }}>&lt;24h</h2>
               <p style={{ opacity: 0.85, margin: '0.5rem 0 0 0' }}>Délai d'intervention</p>
             </div>
             <div>

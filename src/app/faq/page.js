@@ -30,10 +30,26 @@ const faqJsonLd = {
     },
     {
       "@type": "Question",
-      "name": "Le devis de dépannage est-il vraiment gratuit ?",
+      "name": "Quelles sont les marques avec lesquelles vous travaillez ?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Absolument. En cas de panne, nous nous déplaçons pour diagnostiquer le problème. Nous vous soumettons ensuite un devis clair et détaillé. Vous êtes entièrement libre de l'accepter ou de le refuser."
+        "text": "Nous travaillons principalement avec les leaders du marché comme Daikin, Mitsubishi Electric et Atlantic pour vous garantir une fiabilité et des performances optimales."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quelles sont les aides de l'État pour l'installation d'une pompe à chaleur ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "En tant qu'artisan RGE, nos installations sont éligibles à MaPrimeRénov', aux primes CEE (Certificats d'Économies d'Énergie) et à l'éco-PTZ. Le montant dépend de vos revenus et du matériel choisi."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "À quelle fréquence faut-il nettoyer les filtres de sa climatisation ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "En plus de l'entretien annuel par un professionnel, nous recommandons de dépoussiérer et laver les filtres de vos unités intérieures tous les 2 à 3 mois à l'eau tiède."
       }
     },
     {
@@ -70,9 +86,19 @@ export default function FAQ() {
       category: "Dépannage"
     },
     {
-      question: "Le devis de dépannage est-il vraiment gratuit ?",
-      answer: "Absolument. En cas de panne, nous nous déplaçons pour diagnostiquer le problème. Nous vous soumettons ensuite un devis clair et détaillé. Vous êtes entièrement libre de l'accepter ou de le refuser.",
+      question: "Quelles sont les marques avec lesquelles vous travaillez ?",
+      answer: "Nous travaillons principalement avec les leaders du marché comme Daikin, Mitsubishi Electric et Atlantic pour vous garantir une fiabilité et des performances optimales.",
+      category: "Équipement"
+    },
+    {
+      question: "Quelles sont les aides de l'État pour l'installation d'une pompe à chaleur ?",
+      answer: "En tant qu'artisan RGE, nos installations sont éligibles à MaPrimeRénov', aux primes CEE (Certificats d'Économies d'Énergie) et à l'éco-PTZ. Le montant dépend de vos revenus et du matériel choisi.",
       category: "Tarifs"
+    },
+    {
+      question: "À quelle fréquence faut-il nettoyer les filtres de sa climatisation ?",
+      answer: "En plus de l'entretien annuel par un professionnel, nous recommandons de dépoussiérer et laver les filtres de vos unités intérieures tous les 2 à 3 mois à l'eau tiède pour maintenir une bonne qualité d'air et éviter une surconsommation.",
+      category: "Entretien"
     },
     {
       question: "Proposez-vous des facilités de paiement ?",
